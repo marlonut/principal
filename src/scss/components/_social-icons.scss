@@ -1,0 +1,25 @@
+@use 'abstracts' as *;
+.social-icons{
+  display:flex;
+  justify-content: center;
+  gap:var(--size-600);
+  align-items: center;
+  &__item{
+    @include mq(big){
+    width: calc(var(--size-600) - 0.2rem);
+    }  
+  }
+  @media (hover: hover){
+    &__item:hover{
+      filter:opacity(1.9) sepia(1) saturate(19.5) hue-rotate(254deg);
+    }
+  }
+  &--footer{
+    margin-bottom: var(--size-400); 
+  }
+}
+@include mq(big){
+  .social-icons--footer{
+    margin-bottom: 0;
+  }
+}

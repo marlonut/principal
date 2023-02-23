@@ -1,0 +1,17 @@
+section(class="padding-block-800"): .container: .even-columns
+  h2="Contacta Con Nosotros"
+  form(action="#" class="contact-form")
+    div(class="contact-form__container")
+      label(for="name" class="contact-form__label")="name"
+      input(type="text", name="name",placeholder="Nombres" class="contact-form__input" aria-describedby="validation-message" aria-label="insert your name" id="name")
+      span(aria-live="polite" id="validation-message") 
+    div(class="contact-form__container")
+      label(for="email" class="contact-form__label")="email" 
+      input(type="email", name="email", placeholder="Email" class="contact-form__input" aria-describedbdy="validation-email" id="email" aria-label="insert your email")
+      span(aria-live="polite" id="validation-email")
+    div(class="contact-form__container")
+      label(for="message" class="contact-form__label")="message"
+      textarea(name="message", placeholder="Mensage" class="contact-form__textarea" aria-label="insert message" aria-describedbdy="validation-message" id="message")
+      span(id="validation-message" aria-live="polite") 
+    div(class="contact-form__container")
+      button(class="button | text-neutral-400 bg-neutral-900 push-right" role="button" type="button")="ENVIAR"

@@ -1,0 +1,4 @@
+@use "abstracts" as *;
+.flow * + * {
+  margin-top: var(--flow-spacer,1rem);
+}

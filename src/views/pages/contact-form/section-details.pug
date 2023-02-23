@@ -1,0 +1,12 @@
+section("contact")
+  .container
+    div(class="contact__address | padding-block-700 even-columns")
+      div(class="flow")
+        h2="Detalles de Contacto"
+        address(class="text-neutral-700").
+          #[h3(class="text-accent-500 margin-right-1") Oficina Principal]
+          #[span(class="margin-right-1") Email:]nuturn@gmail.com#[br]
+          #[span(class="margin-right-1") Address:]Av Antonio José de Sucre 550 - 552#[br]
+          #[span(class="margin-right-1") Phone:]975-456-891
+      a(class="button button--map |  bg-secondary-900 text-neutral-100 fw-bold" href="#")="View on Map" 
+    iframe(width="600" height="450" scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-76.8252682685852%2C-12.117638254918566%2C-76.81704998016359%2C-12.111281370588651&amp;layer=mapnik")

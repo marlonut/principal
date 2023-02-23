@@ -1,0 +1,22 @@
+@use 'abstracts' as *;
+@use 'sass:map';
+.display-none{
+  display:none;
+}
+@media (max-width:calc(map.get($breakpoints,big) - 1px)){
+  .justify-self-mb{
+    justify-self: center;
+  }
+ .center-mb{
+    text-align: center;
+  }
+}
+.center{
+  text-align:center
+}
+.push-right{
+  margin-inline-end: auto;
+}
+.margin-right-1{
+  margin-right: 1rem;
+}

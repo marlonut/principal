@@ -1,0 +1,3 @@
+mixin sourceData({data,mediaqueries})
+  -for(let i=0;i<data.length;i++)
+    source(media=`(min-width:${mediaqueries[i]})`, srcset=`${data[i]}` ,type=`image/${data[i].slice(-4)}`)

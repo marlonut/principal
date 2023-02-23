@@ -1,0 +1,6 @@
+@use "abstracts" as *;
+@each $weight,$type in $weight-types{
+  .fw-#{$weight}{
+    font-weight: var(--fw-#{$weight});
+  }
+}

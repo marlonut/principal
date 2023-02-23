@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <title> GALERIA DE ACCESORIOS TECNOLOGICOS</title>
+  </head>
+  <body> 
+    <header class="primary-header | padding-block-600 " id="primary-header"> 
+      <div class="container">
+        <div class="nav-wrapper">
+          <h1><img class="logo logo--initial" src="./assets/icons/rectangle-23.svg" alt=""></h1>
+          <button class="mobile-nav-toggle" aria-expanded="false" id="mobile-nav-toggle"><img class="icon-hamburger | " id="icon-hamburger" src="./assets/icons/icon-hamburger.svg" if aria-hidden="true"><img class="icon-close | display-none" id="icon-cross" src="./assets/icons/icon-close.svg" aria-hidden="true"><span class="visually-hidden">Menu</span></button>
+          <nav class="navigation navigation--primary" id="primary-navigation">
+            <ul class="nav-list">
+              <li class="nav-list__item"><a class="nav-list__link" href="./inicio.html">INICIO</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="./tienda.html">TIENDA</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="./contacto.html">CONTACTO</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="./faq.html">FAQ</a></li>
+              <li class="nav-list__item"><a class="nav-list__link" href="./privacidad.html">PRIVACIDAD</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="container">
+        <div class="primary-header__point">
+          <p class="primary-header__text | fw-extraLight text-neutral-100  padding-block-700"><span class="primary-header__space">INMERSIVAS</span>
+            <span class="primary-header__space">EXPERIENCIAS DE</span>
+            <span class="primary-header__space">TECNOLOGIA</span>
+          </p>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section contact>
+        <div class="container">
+          <div class="contact__address | padding-block-700 even-columns">
+            <div class="flow">
+              <h2>Detalles de Contacto</h2>
+              <address class="text-neutral-700">
+                <h3 class="text-accent-500 margin-right-1">Oficina Principal</h3>
+                <span class="margin-right-1">Email:</span>nuturn@gmail.com<br>
+                <span class="margin-right-1">Address:</span>Av Antonio José de Sucre 550 - 552<br>
+                <span class="margin-right-1">Phone:</span>975-456-891
+              </address>
+            </div><a class="button button--map |  bg-secondary-900 text-neutral-100 fw-bold" href="#">View on Map</a>
+          </div>
+          <iframe width="600" height="450" scrolling="no" src="https://www.openstreetmap.org/export/embed.html?bbox=-76.8252682685852%2C-12.117638254918566%2C-76.81704998016359%2C-12.111281370588651&amp;amp;layer=mapnik"></iframe>
+        </div>
+      </section>
+      <section class="padding-block-800">
+        <div class="container">
+          <div class="even-columns">
+            <h2>Contacta Con Nosotros</h2>
+            <form class="contact-form" action="#">
+              <div class="contact-form__container">
+                <label class="contact-form__label" for="name">name</label>
+                <input class="contact-form__input" type="text" name="name" placeholder="Nombres" aria-describedby="validation-message" aria-label="insert your name" id="name"><span aria-live="polite" id="validation-message"> </span>
+              </div>
+              <div class="contact-form__container">
+                <label class="contact-form__label" for="email">email</label>
+                <input class="contact-form__input" type="email" name="email" placeholder="Email" aria-describedbdy="validation-email" id="email" aria-label="insert your email"><span aria-live="polite" id="validation-email"></span>
+              </div>
+              <div class="contact-form__container">
+                <label class="contact-form__label" for="message">message</label>
+                <textarea class="contact-form__textarea" name="message" placeholder="Mensage" aria-label="insert message" aria-describedbdy="validation-message" id="message"></textarea><span id="validation-message" aria-live="polite"> </span>
+              </div>
+              <div class="contact-form__container">
+                <button class="button | text-neutral-400 bg-neutral-900 push-right" role="button" type="button">ENVIAR</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="primary-footer | padding-block-600 bg-neutral-900 text-neutral-100"> 
+      <div class="container">
+        <div class="footer__wrapper | even-columns">
+          <div><img class="logo" src="./assets/icons/rectangle-23.svg" alt="logo">
+            <nav class="navigation navigation--footer | fw-light">
+              <ul class="nav-list">
+                <li class="nav-list__item"><a class="nav-list__link" href="./inicio.html">INICIO</a></li>
+                <li class="nav-list__item"><a class="nav-list__link" href="./tienda.html">TIENDA</a></li>
+                <li class="nav-list__item"><a class="nav-list__link" href="./contacto.html">CONTACTO</a></li>
+                <li class="nav-list__item"><a class="nav-list__link" href="./faq.html">FAQ</a></li>
+                <li class="nav-list__item"><a class="nav-list__link" href="./privacidad.html">PRIVACIDAD</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__list-data">
+            <ul class="social-icons social-icons--footer">
+              <li><a href="#"><img class="social-icons__item" src="./assets/icons/icon-facebook.svg" alt="icon facebook" loading="lazy"></a></li>
+              <li><a href="#"><img class="social-icons__item" src="./assets/icons/icon-twitter.svg" alt="icon twitter" loading="lazy"></a></li>
+              <li><a href="#"><img class="social-icons__item" src="./assets/icons/icon-pinterest.svg" alt="icon pinterest" loading="lazy"></a></li>
+              <li><a href="#"><img class="social-icons__item" src="./assets/icons/icon-instagram.svg" alt="icon instagram" loading="lazy"></a></li>
+            </ul>
+            <p class="max-content"><small class="fw-extraLight">©2021 Nuturn Electronics All Rights Reserved.</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/script.js"> </script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+@use 'abstracts' as *;
+.footer{
+  &__wrapper{
+    --template:auto 1fr;
+    --size:var(--size-400);
+    justify-items: center;
+    @include mq(big){
+      justify-items:normal;
+    }
+  }
+  &__list-data{
+    display: flex;
+    flex-direction: column;
+    @include mq(big){
+      justify-content: space-between;
+      align-items: flex-end; 
+    }
+  }
+}

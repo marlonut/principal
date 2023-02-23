@@ -1,0 +1,12 @@
+@use 'abstracts' as *;
+.contact{
+  &__address{
+    @include mq(big){
+      &{
+        align-items: center;
+      }
+ 
+    }
+  }
+
+}

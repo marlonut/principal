@@ -1,0 +1,3 @@
+mixin imgCard(name,alt,extension,extraClass)
+  -const srcImg=`./assets/images/mobile/${name}.${extension}`
+  img(src=srcImg alt=name class=extraClass loading="lazy")
